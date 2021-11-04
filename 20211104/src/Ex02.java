@@ -11,10 +11,10 @@ public class Ex02 {
 		//b = -129;
 		//b = 128;
 		
-		char ch = 0; // unicode : 정수에 해당하는 문자는
-		System.out.println(ch);
+		char ch = 0; // 정수에 해당하는 문자는 unicode라 한다.
+		System.out.println(ch); 
 		ch = 65535;
-		System.out.println(ch);
+		System.out.println(ch); //?
 		ch = 65; //대문자 A
 		System.out.println(ch);
 		ch = 97; //소문자 = 대문자 + 32
@@ -25,13 +25,14 @@ public class Ex02 {
 		ch = '가';
 		System.out.println((int)ch);
 		ch = 44032;
-		System.out.println(ch);
+		System.out.println(ch);//'가' = 44032
+		
 		short sh = - 32768;
 		System.out.println(sh);
 		sh = 32767;
 		System.out.println(sh);
-		//sh = -32769;
-		//sh = 32768;
+		//sh = -32769; <-short단위 변수: -32768까지만 입력됨
+		//sh = 32768; <-short단위 변수 : 32767까지
 		
 		int i = -2147483648;
 		System.out.println(i);
