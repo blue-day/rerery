@@ -15,7 +15,7 @@ public class Ex04 {
 		boolean b = true;
 		boolean b1 = false;
 		String str = "true"; //문자열
-		//b  = True; 대문자로 쓰면 오류
+		//b = True; 대문자로 쓰면 오류
 		System.out.println(b);
 		System.out.println(b1);
 		System.out.println(str);

@@ -1,5 +1,5 @@
 
-public class EX10 {
+public class Ex10 {
 
 	public static void main(String[] args) {
 		// 대입연산자 : =
