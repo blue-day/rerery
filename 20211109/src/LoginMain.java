@@ -12,8 +12,6 @@ public class LoginMain {
 		}else if(i == -1) {
 			System.out.println("존재하는 아이디가 없습니다.");
 		}
-		
-		
 	}
 
 }
