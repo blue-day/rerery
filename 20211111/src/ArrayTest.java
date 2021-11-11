@@ -41,6 +41,7 @@ public class ArrayTest {
 			System.out.print(n.getSubject()+"   ");
 			System.out.print(n.getContent()+"   ");
 			System.out.println(n.getReadCount()); // ln : 출력 후에 줄바꿈을 한다.
+			
 		}
 
 	}
