@@ -29,7 +29,7 @@ public class Ex01Test {
 		ex011.radius = 20;
 		double d01[] = new double[3];	// double	|	10.5	|	|	|
 		int   i001[] = new    int[3];	// int		|	10		|	|	|
-		Ex01 ex001[] = new   Ex01[3];	// Ex01		|new Ex01()	|	|	|	<- 배열 : 멤버필드X
+		Ex01 ex001[] = new   Ex01[3];	// Ex01		| new Ex01()|	|	|	<- 배열 : 멤버필드X
 		//											  	  0		  1	  2
 		i001[0] = 10;					//			| pi |radius|<- new Ex01()의 멤버필드
 		d01[0] = 10.5;
